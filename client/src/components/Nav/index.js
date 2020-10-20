@@ -6,20 +6,8 @@ function Nav() {
   const location = useLocation();
 
   return (
-    <nav class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active ">
-          <Link
-            to="/"
-            className={
-              location.pathname === "/portfolio"
-                ? "nav-link active text-light"
-                : "nav-link text-light"
-            }
-          >
-            Home
-          </Link>
-        </li>
+    <nav className="collapse navbar-collapse" id="navbarNav">
+      <ul className="navbar-nav ml-auto">
         <li className="nav-item">
         <Link
           to="/about"
@@ -28,7 +16,7 @@ function Nav() {
           About
         </Link>
       </li>
-        <li class="nav-item">
+        <li className="nav-item">
           <Link
             to="/portfolio"
             className={
@@ -40,7 +28,7 @@ function Nav() {
             Portfolio
           </Link>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
           <Link
             to="/contact"
             className={
@@ -52,7 +40,7 @@ function Nav() {
             Contact
           </Link>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
           <Link
             to="/resume"
             className={
