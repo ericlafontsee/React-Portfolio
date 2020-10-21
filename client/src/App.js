@@ -9,9 +9,9 @@ import Resume from "./pages/Resume";
 import "./style.css";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faPhone, faArrowCircleRight } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faPhone, faArrowCircleRight, faDownload } from '@fortawesome/free-solid-svg-icons';
 
-library.add(fab, faEnvelope, faPhone, faArrowCircleRight )
+library.add(fab, faEnvelope, faPhone, faArrowCircleRight, faDownload )
 
 
 class App extends Component {
