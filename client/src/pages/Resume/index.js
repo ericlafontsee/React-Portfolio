@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import ResumePic from '../../images/Resume-2020.png';
+
 
 
 function Resume() {
@@ -17,7 +17,7 @@ function Resume() {
                     <path fill-rule="evenodd" d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
                   </svg>
                 </a>
-                <img src={ResumePic} class="card-img-top img-fluid" alt="Eric LaFontsee's Resume"/>
+                <img src='/images/Resume-2020.png' class="card-img-top img-fluid" alt="Eric LaFontsee's Resume"/>
 
             </div>
         </div>

@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import AboutPic from '../../images/Professional_pic.png';
 import "./style.css";
 
 
@@ -9,7 +8,7 @@ function About() {
   return (
     <>
       <Header />
-      <div class="container bio">
+      <div class="container">
         <div className="row">
         <div className="col-md-12 mb-3">
           <div className="rounded-lg margin-top about-me">
@@ -19,13 +18,12 @@ function About() {
             <div className="row">
               <div className="col-md-3">
                 <img
-                  src={AboutPic}
+                  src="/images/professional_pic.png"
                   className="propic img-fluid "
                   alt="Portrait of Eric LaFontsee"
                 />
               </div>
-              <div className="col-md-9">
-                <p className="card-text pt-2">
+              <div className="col-md-9 bio">
                   Full stack web developer with a background in the music
                   business. Successfully managed tours for a Sony artist
                   providing support for national acts like Lynyrd Skynyrd. Known
@@ -37,7 +35,6 @@ function About() {
                   team invested in developing cutting-edge web applications. My
                   determination combined with diligence makes me a reliable and
                   successful team member.
-                </p>
               </div>
             </div>
           </div>
