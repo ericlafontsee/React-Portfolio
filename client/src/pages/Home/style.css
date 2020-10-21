@@ -1,12 +1,11 @@
-/* I found James Bosworth's codepen the other day (https://codepen.io/bosworthco/) and saw his work on shifted perspective and wanted to learn how to make it.
-I also found this Youtube video (https://www.youtube.com/watch?v=LgiadQQM6mo&list=PLbu98QxRH81KxxMclY_ZRmm4Dac-n7cSA) which is a great tutorial of the project. Enjoy!
-*/
+
 
 html {
     height: 100%;
   }
   
-  body {
+  .body {
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,7 +13,6 @@ html {
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 250px;
   }
   
   .perspective-text {

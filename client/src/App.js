@@ -8,8 +8,6 @@ import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import "./style.css";
 
-// import friends from './portfolio.json';
-
 
 class App extends Component {
   render() {

@@ -6,7 +6,7 @@ function Home() {
   const location = useLocation();
 
   return (
-    <>
+    <div className="body">
       <div className="perspective-text">
         <div className="perspective-line">
           <p></p>
@@ -31,7 +31,7 @@ function Home() {
       <Link to="/about" className={location.pathname === "/about"}>
         <i className="fas fa-3x fa-arrow-circle-right"></i>
       </Link>
-    </>
+    </div>
   );
 }
 export default Home;

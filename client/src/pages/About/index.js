@@ -9,13 +9,14 @@ function About() {
   return (
     <>
       <Header />
-      <div class="container container-fluid">
+      <div class="container bio">
+        <div className="row">
         <div className="col-md-12 mb-3">
           <div className="rounded-lg margin-top about-me">
             <h3 className="text-light border border-white rounded-lg p-2">
               About Me
             </h3>
-            <div className="row mainBody">
+            <div className="row">
               <div className="col-md-3">
                 <img
                   src={AboutPic}
@@ -40,6 +41,7 @@ function About() {
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
       <Footer />

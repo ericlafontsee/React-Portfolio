@@ -26,20 +26,7 @@ h3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #556270;
 }
 
-.btn {
-  background: #556270;
-  color: white;
-  width: 150px;
-  border: 2px outset white;
-}
 
-
-
-.card {
-  width: 100%;
-  padding: 0;
-  border-color: #556270;
-}
 
 .margin-top {
   margin-top: 20px;
