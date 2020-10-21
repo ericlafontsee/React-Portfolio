@@ -72,8 +72,7 @@ html {
     left: 145px;
   }
   
-
-  .fas {
+.arrow { 
     margin: 0 auto;
     color: white;
     position: fixed;

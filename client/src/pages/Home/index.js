@@ -30,7 +30,7 @@ function Home() {
         </div>
       </div>
       <Link to="/about" className={location.pathname === "/about"}>
-        <FontAwesomeIcon icon="arrow-circle-right" />
+        <FontAwesomeIcon icon="arrow-circle-right" size="6x" className="arrow"/>
       </Link>
     </div>
   );
