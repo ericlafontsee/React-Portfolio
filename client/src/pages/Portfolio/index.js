@@ -1,10 +1,14 @@
 import React from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import { Link, useLocation } from "react-router-dom";
 import "./style.css";
+import portfolio from "../../portfolio.json";
 
 
 function Portfolio() {
+  const location = useLocation();
+
   return (
     <>
       <Header />
@@ -17,7 +21,7 @@ function Portfolio() {
               </h3>
               <div className="row">
                 <div className="card margin-top mx-auto" >
-                  {/* <a href="https://ericlafontsee.github.io/Weather-Dashboard/" target="_blank"><img src="assets/images/Weather-Dashboard.png" className="cardimg rounded d-block w-100 p-0 m-0" alt="Weather DashBoard App" /></a> */}
+                  <Link to="https://ericlafontsee.github.io/Weather-Dashboard/" target="_blank"><img src="../../images/Weather-Dashboard.png" className="cardimg rounded d-block w-100 p-0 m-0" alt="Weather DashBoard App" /></Link>
                   <div className="card-body text-center">
                     <h5 className="card-title">Weather DashBoard</h5>
                     {/* <a href="https://github.com/ericlafontsee/Weather-Dashboard" target="_blank" className="btn  m-3">GitHub Repo</a> */}
@@ -47,7 +51,7 @@ function Portfolio() {
                   <div className="card-body text-center">
                     <h5 className="card-title"> EAT-DA-BURGER</h5>
                     {/* <a href="https://github.com/ericlafontsee/Node-Express-Handlebars" target="_blank" className="btn  m-3">GitHub Repo</a> */}
-                    {/* <a href="https://powerful-tor-68295.herokuapp.com/" target="_blank " className="btn  m-3 ">Deployed App</a> */}
+                    {/* <a href="https://github.com/ericlafontsee/Node-Express-Handlebars" target="_blank " className="btn  m-3 ">Deployed App</a> */}
                   </div>
                 </div>
               </div>
