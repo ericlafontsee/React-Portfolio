@@ -3,8 +3,8 @@ import "./style.css";
 
 function Card(props) {
   return (
-    <div className="card margin-top mx-auto ">
-      <a to={props.Deployed} target="_blank">
+    <div className="card margin-top mx-auto border-dark">
+      <a to={props.Deployed} target="_blank"  rel="noopener noreferrer">
         <img
           src={props.image}
           className="cardimg rounded d-block w-100 p-0 m-0"

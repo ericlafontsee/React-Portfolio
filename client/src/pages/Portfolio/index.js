@@ -14,7 +14,7 @@ class Portfolio extends Component {
     return (
       <>
         <Header />
-        <div className="container container-fluid">
+        <div className="container">
           <div className="row mb-3">
             <div className="col-md-12">
               <div className="border border-dark margin-top portfolio rounded-lg">

@@ -7,6 +7,11 @@ import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import "./style.css";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faPhone, faArrowCircleRight } from '@fortawesome/free-solid-svg-icons';
+
+library.add(fab, faEnvelope, faPhone, faArrowCircleRight )
 
 
 class App extends Component {
@@ -15,11 +20,11 @@ class App extends Component {
       <Router>
         <div>
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/resume" component={Resume} />
+          <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
+          <Route exact path={process.env.PUBLIC_URL + "/about"} component={About} />
+          <Route exact path={process.env.PUBLIC_URL + "/portfolio"} component={Portfolio} />
+          <Route exact path={process.env.PUBLIC_URL + "/contact"} component={Contact} />
+          <Route exact path={process.env.PUBLIC_URL + "/resume"} component={Resume} />
         </Switch>
         </div>
       </Router>

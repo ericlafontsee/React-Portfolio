@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Link, useLocation } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Home() {
   const location = useLocation();
@@ -29,7 +30,7 @@ function Home() {
         </div>
       </div>
       <Link to="/about" className={location.pathname === "/about"}>
-        <i className="fas fa-3x fa-arrow-circle-right"></i>
+        <FontAwesomeIcon icon="arrow-circle-right" />
       </Link>
     </div>
   );
