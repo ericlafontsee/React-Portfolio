@@ -1,5 +1,4 @@
 
-
 html {
     height: 100%;
   }
@@ -46,7 +45,7 @@ html {
   }
   
   .perspective-text:hover p {
-    transform: translate(0, -50px);
+    transform: translate(0, -65px);
   }
   
   .perspective-line:nth-child(1) {
