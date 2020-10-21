@@ -13,14 +13,28 @@ function Card(props) {
       </a>
       <div className="card-body text-center">
         <h5 className="card-title">{props.name}</h5>
-        <a href={props.GitHub} target="_blank" rel="noopener noreferrer" className="btn m-3">
-          GitHub Repo
-        </a>
-        <a href={props.Deployed} target="_blank" rel="noopener noreferrer" className="btn m-3">
+        <button className="m-3">
+          <a
+            href={props.GitHub}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-light"
+          >
+            GitHub Repo
+          </a>
+        </button>
+        <button>
+        <a
+          href={props.Deployed}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-light"
+        >
           Deployed App
         </a>
+        </button>
       </div>
     </div>
   );
 }
-export default Card
+export default Card;
