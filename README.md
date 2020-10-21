@@ -9,7 +9,7 @@ My portfolio is deployed to Heroku:
 https://blooming-island-13857.herokuapp.com/
 
 ## Usage
-![image](assets/images/Portfolio-Demo.gif)
+![image](./client/public/images/Portfolio-Demo.gif)
 
 ## Built With
 React
