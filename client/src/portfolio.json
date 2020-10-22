@@ -2,14 +2,14 @@
     {
       "id": 1,
       "name": "Weather DashBoard",
-      "image": "/images/Weather-Dashboard.png",
+      "image": "/images/weather-dashboard.png",
       "GitHub": "https://github.com/ericlafontsee/Weather-Dashboard",
       "Deployed": "https://ericlafontsee.github.io/Weather-Dashboard/"
     },
     {
       "id": 2,
       "name": "Work Day Scheduler",
-      "image": "/images/Workday-scheduler.png",
+      "image": "/images/workday-scheduler.png",
       "GitHub": "https://github.com/ericlafontsee/Work-Day-Scheduler",
       "Deployed": "https://ericlafontsee.github.io/Work-Day-Scheduler/"
     },
@@ -23,35 +23,35 @@
     {
       "id": 4,
       "name": "EAT-DA-BURGER",
-      "image": "/images/EAT-DA-BURGER.png",
+      "image": "/images/eat-da-burger.png",
       "GitHub": "https://github.com/ericlafontsee/Node-Express-Handlebars",
       "Deployed": "https://github.com/ericlafontsee/Node-Express-Handlebars"
     },
     {
       "id": 5,
       "name": "Weather DashBoard",
-      "image": "/images/Weather-Dashboard.png",
+      "image": "/images/weather-dashboard.png",
       "GitHub": "https://github.com/ericlafontsee/Weather-Dashboard",
       "Deployed": "https://ericlafontsee.github.io/Weather-Dashboard/"
     },
     {
       "id": 6,
       "name": "Team Profile Generator",
-      "image": "/images/Team-Profile-Generator.png",
+      "image": "/images/team-profile-generator.png",
       "GitHub": "https://github.com/ericlafontsee/Team-Profile-Generator",
       "Deployed": "https://drive.google.com/file/d/1FAkVv5czBKA5EqCrOKxXFto6FAjKJssY/view"
     },
     {
       "id": 7,
       "name": "Note Taker",
-      "image": "/images/Note-Taker.png",
+      "image": "/images/note-taker.png",
       "GitHub": "https://github.com/ericlafontsee/Note-Taker",
       "Deployed": "https://drive.google.com/file/d/1kQuU7-dF2I2n0Ycimuo-hSqAZ3-IhruR/view?usp=sharing"
     },
     {
       "id": 8,
       "name": "Employee Tracker",
-      "image": "/images/Employee-Tracker.png",
+      "image": "/images/employee-tracker.png",
       "GitHub": "https://github.com/ericlafontsee/Employee-Tracker",
       "Deployed": "https://drive.google.com/file/d/1bwvdGhdnEXA_C8qCx2j2WkBCmHRg0gyG/view"
     },

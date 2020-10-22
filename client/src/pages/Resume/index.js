@@ -15,7 +15,7 @@ function Resume() {
                 <a href="https://drive.google.com/file/d/1SeOB1Sipwgn7tsDr4H7k9gwA3twBFAWH/view?usp=sharing">   
                 <FontAwesomeIcon icon="download" size="4x" className="icon"/>
                 </a>
-                <img src='/images/Resume-2020.png' className="resume card-img-top img-fluid w-100" alt="Eric LaFontsee's Resume"/>
+                <img src={process.env.PUBLIC_URL + '/images/resume-2020.png'} className="resume card-img-top img-fluid w-100" alt="Eric LaFontsee's Resume"/>
 
             </div>
         </div>

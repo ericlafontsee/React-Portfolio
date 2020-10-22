@@ -13,7 +13,7 @@ function PortCard(props) {
           <Card.Img
             className="cardimg rounded d-block w-100 p-0 m-0"
             variant="top"
-            src={props.image}
+            src={process.env.PUBLIC_URL + props.image}
             alt={props.name}
           />
         </a>
