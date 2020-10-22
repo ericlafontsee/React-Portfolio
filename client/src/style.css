@@ -34,11 +34,11 @@ h3 {
 
 
 @media (max-width: 600px) {
-  /* header.navbar {
+  header.navbar {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
-  } */
+  }
   .fixed-bottom {
     position: relative;
     padding-bottom: 20px;

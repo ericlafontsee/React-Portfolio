@@ -4,7 +4,7 @@ import { Navbar, Nav } from "react-bootstrap";
 
 function NavMenu() {
   return (
-    <Navbar>
+    <Navbar bg="dark">
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav>
