@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Link, useLocation } from "react-router-dom";
-import Nav from "../Nav";
+import NavMenu from "../Nav";
 
 function Header() {
   const location = useLocation();
@@ -18,7 +18,7 @@ function Header() {
           >
                  <h1>Eric LaFontsee</h1>
           </Link>
-      <Nav />
+      <NavMenu />
     </header>
   );
 }

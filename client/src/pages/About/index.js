@@ -8,7 +8,7 @@ function About() {
   return (
     <>
       <Header />
-      <div class="container">
+      <div className="container">
         <div className="row">
         <div className="col-md-12 mb-3">
           <div className="rounded-lg margin-top about-me">

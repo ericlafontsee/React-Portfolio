@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import "./style.css";
-import Card from "../../components/Card";
+import PortCard from "../../components/Card";
 import portfolio from "../../portfolio.json";
 
 class Portfolio extends Component {
@@ -24,7 +24,7 @@ class Portfolio extends Component {
                 <div className="d-flex flex-wrap">
                   {this.state.portfolio.map((o, key) => {
                     return (
-                      <Card
+                      <PortCard
                         name={o.name}
                         image={o.image}
                         GitHub={o.GitHub}

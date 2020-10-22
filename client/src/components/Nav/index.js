@@ -1,60 +1,29 @@
 import React from "react";
 import "./style.css";
-import { Link, useLocation } from "react-router-dom";
+import { Navbar, Nav } from "react-bootstrap";
 
-function Nav() {
-  const location = useLocation();
-
+function NavMenu() {
   return (
-    <nav className="collapse navbar-collapse" id="navbarNav">
-      <ul className="navbar-nav ml-auto">
-        <li className="nav-item">
-        <Link
-          to="/about"
-          className={location.pathname === "/about" ? "nav-link active text-light" : "nav-link text-light"}
-        >
-          About
-        </Link>
-      </li>
-        <li className="nav-item">
-          <Link
-            to="/portfolio"
-            className={
-              location.pathname === "/portfolio"
-                ? "nav-link active text-light"
-                : "nav-link text-light"
-            }
-          >
+    <Navbar className="navbar" collapseOnSelect expand="lg">
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav>
+          <Nav.Link className="text-light" href="/about">
+            About
+          </Nav.Link>
+          <Nav.Link className="text-light" href="/portfolio">
             Portfolio
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            to="/contact"
-            className={
-              location.pathname === "/contact"
-                ? "nav-link active text-light"
-                : "nav-link text-light"
-            }
-          >
+          </Nav.Link>
+          <Nav.Link className="text-light" href="/contact">
             Contact
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            to="/resume"
-            className={
-              location.pathname === "/resume"
-                ? "nav-link active text-light"
-                : "nav-link text-light"
-            }
-          >
+          </Nav.Link>
+          <Nav.Link className="text-light" href="/resume">
             Resume
-          </Link>
-        </li>
-      </ul>
-    </nav>
+          </Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }
 
-export default Nav;
+export default NavMenu;
