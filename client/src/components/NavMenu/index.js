@@ -4,7 +4,7 @@ import { Navbar, Nav} from "react-bootstrap";
 
 function NavMenu() {
   return (
-      <Navbar className="navbar" collapseOnSelect expand="lg">
+      <Navbar collapseOnSelect expand="lg">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>
