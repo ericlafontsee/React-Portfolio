@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Link, useLocation } from "react-router-dom";
-import NavMenu from "../Nav";
+import NavMenu from "../NavMenu";
 
 function Header() {
   const location = useLocation();

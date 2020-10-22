@@ -5,8 +5,8 @@ import { Navbar, Nav } from "react-bootstrap";
 function NavMenu() {
   return (
     <Navbar>
-      {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
-      {/* <Navbar.Collapse id="responsive-navbar-nav"> */}
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
         <Nav>
           <Nav.Link  href="/about">
             About
@@ -21,7 +21,7 @@ function NavMenu() {
             Resume
           </Nav.Link>
         </Nav>
-      {/* </Navbar.Collapse> */}
+      </Navbar.Collapse>
     </Navbar>
   );
 }
