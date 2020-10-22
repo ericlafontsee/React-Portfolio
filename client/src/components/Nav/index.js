@@ -4,24 +4,24 @@ import { Navbar, Nav } from "react-bootstrap";
 
 function NavMenu() {
   return (
-    <Navbar className="navbar" collapseOnSelect expand="lg">
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
+    <Navbar>
+      {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
+      {/* <Navbar.Collapse id="responsive-navbar-nav"> */}
         <Nav>
-          <Nav.Link className="text-light" href="/about">
+          <Nav.Link  href="/about">
             About
           </Nav.Link>
-          <Nav.Link className="text-light" href="/portfolio">
+          <Nav.Link href="/portfolio">
             Portfolio
           </Nav.Link>
-          <Nav.Link className="text-light" href="/contact">
+          <Nav.Link href="/contact">
             Contact
           </Nav.Link>
-          <Nav.Link className="text-light" href="/resume">
+          <Nav.Link href="/resume">
             Resume
           </Nav.Link>
         </Nav>
-      </Navbar.Collapse>
+      {/* </Navbar.Collapse> */}
     </Navbar>
   );
 }
