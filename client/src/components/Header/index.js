@@ -7,7 +7,7 @@ function Header() {
   const location = useLocation();
 
   return (
-    <header className="navbar navbar-expand-lg navbar-light border border-dark">
+    <header>
       <Link
             to="/"
             className={
