@@ -1,17 +1,16 @@
 import React from "react";
 import "./style.css";
-import { Button, Card, CardGroup } from "react-bootstrap";
+import { Button, Card } from "react-bootstrap";
 
 function PortCard(props) {
   return (
-    <CardGroup className="mx-auto">
+
       <Card
         className="card margin-top mx-auto border-dark"
-        style={{ width: "30rem" }}
       >
         <a href={props.Deployed} target="_blank" rel="noopener noreferrer">
           <Card.Img
-            className="cardimg rounded d-block w-100 p-0 m-0"
+            className="img-thumbnail img-max-width"
             variant="top"
             src={process.env.PUBLIC_URL + props.image}
             alt={props.name}
@@ -27,7 +26,6 @@ function PortCard(props) {
           </Button>
         </Card.Body>
       </Card>
-    </CardGroup>
   );
 }
 export default PortCard;

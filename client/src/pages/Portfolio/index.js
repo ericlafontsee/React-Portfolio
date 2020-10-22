@@ -4,6 +4,7 @@ import Footer from "../../components/Footer";
 import "./style.css";
 import PortCard from "../../components/Card";
 import portfolio from "../../portfolio.json";
+import { CardGroup } from "react-bootstrap";
 
 class Portfolio extends Component {
   state = {
@@ -21,7 +22,8 @@ class Portfolio extends Component {
                 <h3 className="text-light border border-white p-2 rounded-lg">
                   Portfolio
                 </h3>
-                <div className="d-flex flex-wrap">
+                <div className="d-flex flex-wrap justify-content-space-evenly">
+                {/* <CardGroup className="mx-auto"> */}
                   {this.state.portfolio.map((o, key) => {
                     return (
                       <PortCard
@@ -33,6 +35,7 @@ class Portfolio extends Component {
                       />
                     );
                   })}
+                  {/* </CardGroup> */}
                 </div>
               </div>
             </div>
