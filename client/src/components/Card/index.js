@@ -19,10 +19,10 @@ function PortCard(props) {
         </a>
         <Card.Title className="text-center p-2">{props.name}</Card.Title>
         <Card.Body className="mx-auto">
-          <Button className="btn m-1" href={props.GitHub} target="_blank">
+          <Button className="btn m-1" href={props.GitHub} target="_blank" style={{ background: "#556270", border: "2px outset white "}}>
             GitHub Repo
           </Button>
-          <Button className="btn m-1" href={props.Deployed} target="_blank">
+          <Button className="btn m-1"  style={{ background: "#556270", border: "2px outset white "}} href={props.Deployed} target="_blank">
             Deployed App
           </Button>
         </Card.Body>
