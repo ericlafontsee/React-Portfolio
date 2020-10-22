@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import "./style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Button } from "react-bootstrap";
 
 function Contact() {
   return (
@@ -22,7 +23,7 @@ function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FontAwesomeIcon icon="phone" size="4x" className="icon"/>
+                    <FontAwesomeIcon icon="phone" size="4x" className="icon" />
                   </a>
                   <a
                     href="mailto:elafontsee@gmail.com"
@@ -86,9 +87,17 @@ function Contact() {
                       placeholder="Enter Message"
                     />
                   </div>
-                  <button type="submit" className="mb-3">
+
+                  <Button
+                    type="submit"
+                    className="mb-3"
+                    style={{
+                      background: "#556270",
+                      border: "2px outset white "
+                    }}
+                  >
                     Submit
-                  </button>
+                  </Button>
                 </form>
               </div>
             </div>
