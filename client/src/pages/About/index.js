@@ -18,7 +18,7 @@ function About() {
             <div className="row">
               <div className="col-md-3">
                 <img
-                  src="/images/professional_pic.png"
+                  src={process.env.PUBLIC_URL + "/images/professional_pic.png"}
                   className="propic img-fluid "
                   alt="Portrait of Eric LaFontsee"
                 />
