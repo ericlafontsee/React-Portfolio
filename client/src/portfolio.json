@@ -57,10 +57,10 @@
     },
     {
       "id": 9,
-      "name": "Change For Good",
-      "image": "/images/changeforgood.png",
-      "GitHub": "https://github.com/ericlafontsee/Change-For-Good",
-      "Deployed": "https://arcane-ravine-47168.herokuapp.com/"
+      "name": "Google Book Search",
+      "image": "/images/google-book-search.png",
+      "GitHub": "https://github.com/ericlafontsee/Google-Books-Search",
+      "Deployed": "https://murmuring-woodland-11280.herokuapp.com/"
     }
   ]
   
