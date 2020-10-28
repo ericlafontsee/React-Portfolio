@@ -8,59 +8,46 @@
     },
     {
       "id": 2,
-      "name": "Work Day Scheduler",
-      "image": "/images/workday-scheduler.png",
-      "GitHub": "https://github.com/ericlafontsee/Work-Day-Scheduler",
-      "Deployed": "https://ericlafontsee.github.io/Work-Day-Scheduler/"
-    },
-    {
-      "id": 3,
-      "name": "Code Quiz",
-      "image": "/images/code-quiz.png",
-      "GitHub": "https://github.com/ericlafontsee/Homework-CodeQuiz",
-      "Deployed": "https://ericlafontsee.github.io/Homework-CodeQuiz/"
-    },
-    {
-      "id": 4,
-      "name": "EAT-DA-BURGER",
-      "image": "/images/eat-da-burger.png",
-      "GitHub": "https://github.com/ericlafontsee/Node-Express-Handlebars",
-      "Deployed": "https://github.com/ericlafontsee/Node-Express-Handlebars"
-    },
-    {
-      "id": 5,
-      "name": "Weather DashBoard",
-      "image": "/images/weather-dashboard.png",
-      "GitHub": "https://github.com/ericlafontsee/Weather-Dashboard",
-      "Deployed": "https://ericlafontsee.github.io/Weather-Dashboard/"
-    },
-    {
-      "id": 6,
-      "name": "Team Profile Generator",
-      "image": "/images/team-profile-generator.png",
-      "GitHub": "https://github.com/ericlafontsee/Team-Profile-Generator",
-      "Deployed": "https://drive.google.com/file/d/1FAkVv5czBKA5EqCrOKxXFto6FAjKJssY/view"
-    },
-    {
-      "id": 7,
-      "name": "Note Taker",
-      "image": "/images/note-taker.png",
-      "GitHub": "https://github.com/ericlafontsee/Note-Taker",
-      "Deployed": "https://drive.google.com/file/d/1kQuU7-dF2I2n0Ycimuo-hSqAZ3-IhruR/view?usp=sharing"
-    },
-    {
-      "id": 8,
       "name": "Employee Tracker",
       "image": "/images/employee-tracker.png",
       "GitHub": "https://github.com/ericlafontsee/Employee-Tracker",
       "Deployed": "https://drive.google.com/file/d/1bwvdGhdnEXA_C8qCx2j2WkBCmHRg0gyG/view"
     },
     {
-      "id": 9,
+      "id": 3,
       "name": "Google Book Search",
       "image": "/images/google-book-search.png",
       "GitHub": "https://github.com/ericlafontsee/Google-Books-Search",
       "Deployed": "https://murmuring-woodland-11280.herokuapp.com/"
+    },
+    {
+      "id": 4,
+      "name": "Work Day Scheduler",
+      "image": "/images/workday-scheduler.png",
+      "GitHub": "https://github.com/ericlafontsee/Work-Day-Scheduler",
+      "Deployed": "https://ericlafontsee.github.io/Work-Day-Scheduler/"
+    },
+    {
+      "id": 5,
+      "name": "Code Quiz",
+      "image": "/images/code-quiz.png",
+      "GitHub": "https://github.com/ericlafontsee/Homework-CodeQuiz",
+      "Deployed": "https://ericlafontsee.github.io/Homework-CodeQuiz/"
+    },
+    {
+      "id": 6,
+      "name": "EAT-DA-BURGER",
+      "image": "/images/eat-da-burger.png",
+      "GitHub": "https://github.com/ericlafontsee/Node-Express-Handlebars",
+      "Deployed": "https://github.com/ericlafontsee/Node-Express-Handlebars"
+    },
+    {
+      "id": 7,
+      "name": "Team Profile Generator",
+      "image": "/images/team-profile-generator.png",
+      "GitHub": "https://github.com/ericlafontsee/Team-Profile-Generator",
+      "Deployed": "https://drive.google.com/file/d/1FAkVv5czBKA5EqCrOKxXFto6FAjKJssY/view"
     }
+   
   ]
   
