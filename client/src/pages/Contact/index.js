@@ -18,6 +18,7 @@ function Contact() {
               </h3>
               <div className="row">
                 <div className="col-md-8 mx-auto text-center">
+                  <div className="text-center">
                   <a
                     href="tel:+9522885051"
                     target="_blank"
@@ -25,6 +26,9 @@ function Contact() {
                   >
                     <FontAwesomeIcon icon="phone" size="4x" className="icon" />
                   </a>
+                  952-288-5051
+                  
+        
                   <a
                     href="mailto:elafontsee@gmail.com"
                     target="_blank"
@@ -36,6 +40,8 @@ function Contact() {
                       className="icon"
                     />
                   </a>
+                  elafontsee@gmail.com
+                  </div>
                   <a
                     href="https://www.linkedin.com/in/eric-lafontsee-a2b65a6b/"
                     target="_blank"

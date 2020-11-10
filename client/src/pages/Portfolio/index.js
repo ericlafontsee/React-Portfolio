@@ -29,6 +29,7 @@ class Portfolio extends Component {
                       <PortCard
                         name={o.name}
                         image={o.image}
+                        description={o.description}
                         GitHub={o.GitHub}
                         Deployed={o.Deployed}
                         key={key}
