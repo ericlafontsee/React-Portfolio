@@ -14,7 +14,7 @@ function PortCard(props) {
         />
       </a>
       <Card.Title className="text-center pt-2">{props.name}</Card.Title>
-      <Card.Body className="mx-auto pb-5">
+      <Card.Body className="mx-auto pb-5 text-center">
         <Card.Text className="description">{props.description}</Card.Text>
       </Card.Body>
       <Card.Body className="mx-auto pb-5">

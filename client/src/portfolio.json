@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Weather DashBoard",
       "image": "/images/weather-dashboard.png",
-      "description": "Weather application using the Open Weather Map API. User can input any city of their choosing.The page will populate with the current weather as well as a 5-day forecast. Project was built with Bootstrap, jQuery, and the Open Weather Map API.",
+      "description": "Weather application using the Open Weather Map API. Users can input any city of their choosing. The page will populate with the current weather as well as a 5-day forecast. Project was built with Bootstrap, jQuery, and the Open Weather Map API.",
       "GitHub": "https://github.com/ericlafontsee/Weather-Dashboard",
       "Deployed": "https://ericlafontsee.github.io/Weather-Dashboard/"
     },
@@ -11,6 +11,7 @@
       "id": 2,
       "name": "Employee Tracker",
       "image": "/images/employee-tracker.png",
+      "description": "CLI application that can manage a company's employees. This Content Management System allows the user to view, add, delete, and update departments, roles, and employees. Project was built with Node, JavaScript, and MySQL.",
       "GitHub": "https://github.com/ericlafontsee/Employee-Tracker",
       "Deployed": "https://drive.google.com/file/d/1bwvdGhdnEXA_C8qCx2j2WkBCmHRg0gyG/view"
     },
@@ -18,6 +19,7 @@
       "id": 3,
       "name": "Google Book Search",
       "image": "/images/google-book-search.png",
+      "description": "Application allows the user to search Google books. The results will display and the user can either view the book on Google or save the book to the database. Project was built with the MERN stack and Bootstrap.",
       "GitHub": "https://github.com/ericlafontsee/Google-Books-Search",
       "Deployed": "https://murmuring-woodland-11280.herokuapp.com/"
     },
@@ -25,6 +27,7 @@
       "id": 4,
       "name": "Work Day Scheduler",
       "image": "/images/workday-scheduler.png",
+      "description": "Application saves user's events to a daily work schedule (9-5). Project was built with jQuery, Bootstrap, Moment.js, and utilizes local storage.",
       "GitHub": "https://github.com/ericlafontsee/Work-Day-Scheduler",
       "Deployed": "https://ericlafontsee.github.io/Work-Day-Scheduler/"
     },
@@ -32,6 +35,7 @@
       "id": 5,
       "name": "Code Quiz",
       "image": "/images/code-quiz.png",
+      "description": "Application is a timed quiz focusing on questions about JavaScript. The user can save their high scores to local storage. Project was built with JavaScript, Bootstrap, and utilizes local storage.",
       "GitHub": "https://github.com/ericlafontsee/Homework-CodeQuiz",
       "Deployed": "https://ericlafontsee.github.io/Homework-CodeQuiz/"
     },
@@ -39,6 +43,7 @@
       "id": 6,
       "name": "EAT-DA-BURGER",
       "image": "/images/eat-da-burger.png",
+      "description": "Application is a burger logger that follows the MVC design. Users can place an order, devour their burger, and then delete it. Project was built with Node, JavaScript, MySQL, Express, Handlebars, Bootstrap, and jQuery.",
       "GitHub": "https://github.com/ericlafontsee/Node-Express-Handlebars",
       "Deployed": "https://powerful-tor-68295.herokuapp.com/"
     },
@@ -46,6 +51,7 @@
       "id": 7,
       "name": "Team Profile Generator",
       "image": "/images/team-profile-generator.png",
+      "description": "CLI application allows users to enter employees by role. The app will create an HTML file that displays the team's roster. Project was built with Node, JavaScript, BootStrap, and utilizes the jest module for testing the code.",
       "GitHub": "https://github.com/ericlafontsee/Team-Profile-Generator",
       "Deployed": "https://drive.google.com/file/d/1FAkVv5czBKA5EqCrOKxXFto6FAjKJssY/view"
     }
