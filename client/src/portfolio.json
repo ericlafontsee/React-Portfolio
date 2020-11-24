@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Downshift",
-        "image": "/images/eat-da-burger.png",
+        "image": "/images/downshift.png",
         "description": "Application allows the user to schedule break times. An alarm sounds on break and presents the user with a mini game that will suggest a productive activity. Project was built with Passport.js, MERN, and React-Timekeeper.",
         "GitHub": "https://github.com/millerrich/downshift-v2",
         "Deployed": "https://glacial-wildwood-12509.herokuapp.com/"
